@@ -17,7 +17,7 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/contact.css">
+    <!-- <link rel="stylesheet" href="./css/contact.css"> -->
     <link rel="stylesheet" href="./css/ignite.css">
 
     <style>
@@ -60,7 +60,7 @@
             <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" pattern="[0-9]{10}" required>
             <label for="qualification"><h4>Current Educational Qualification:</h4></label>
             <input type="text" id="qualification" name="qualification" placeholder="e.g., 10th,11th" required>
-            <label for="school"><h4>Name of School/:</h4></label>
+            <label for="school"><h4>Name of School:</h4></label>
             <input type="text" id="school" name="school" placeholder="Enter your school name" required>
             <label for="year"><h4>Year of Passing:</h4></label>
             <select id="year" name="year" required>
@@ -76,47 +76,79 @@
             <input type="text" id="cgpa" name="cgpa" placeholder="e.g., 8.5 or 85%" required>
             <label><h4>Choose Desired Course/Program (Select up to 4):</h4></label>
 
-            <input type="checkbox" id="maths9" name="courses[]" value="Maths (9th)">
-            <label for="maths9">Maths (9th)</label>
+            <div>
+                <input type="checkbox" id="maths9" name="courses[]" value="Maths (9th)">
+                <label for="maths9">Maths (9th)</label>
+            </div>
+            <div>
+                
+                
+                <input type="checkbox" id="science9" name="courses[]" value="Science (9th)">
+                <label for="science9">Science (9th)</label>
+            </div>
+            <div>
 
-            <input type="checkbox" id="science9" name="courses[]" value="Science (9th)">
-            <label for="science9">Science (9th)</label>
+                <input type="checkbox" id="maths10" name="courses[]" value="Maths (10th)">
+                <label for="maths10">Maths (10th)</label>
+            </div>
+                <div>
 
-            <input type="checkbox" id="maths10" name="courses[]" value="Maths (10th)">
-            <label for="maths10">Maths (10th)</label>
+                    <input type="checkbox" id="science10" name="courses[]" value="Science (10th)">
+                    <label for="science10">Science (10th)</label>
+                </div>
+                <div>
 
-            <input type="checkbox" id="science10" name="courses[]" value="Science (10th)">
-            <label for="science10">Science (10th)</label>
+                    
+                    <input type="checkbox" id="physics" name="courses[]" value="Physics (11th)">
+                    <label for="physics">Physics (11th)</label>
+                </div>
+                <div>
+                    
+                    <input type="checkbox" id="chemistry" name="courses[]" value="Chemistry (11th)">
+                    <label for="chemistry">Chemistry (11th)</label>
+                </div>
+                <div>
 
-            <input type="checkbox" id="physics" name="courses[]" value="Physics (11th)">
-            <label for="physics">Physics (11th)</label>
+                    <input type="checkbox" id="maths11" name="courses[]" value="Maths (11th)">
+                    <label for="maths11">Maths (11th)</label>
+                </div>
+                <div>
 
-            <input type="checkbox" id="chemistry" name="courses[]" value="Chemistry (11th)">
-            <label for="chemistry">Chemistry (11th)</label>
+                    <input type="checkbox" id="biology" name="courses[]" value="Biology (11th)">
+                    <label for="biology">Biology (11th)</label>
+                </div>
+                <div>
 
-            <input type="checkbox" id="maths11" name="courses[]" value="Maths (11th)">
-            <label for="maths11">Maths (11th)</label>
+                    <input type="checkbox" id="physics12" name="courses[]" value="Physics (12th)">
+                    <label for="physics12">Physics (12th)</label>
+                </div>
+                <div>
 
-            <input type="checkbox" id="biology" name="courses[]" value="Biology (11th)">
-            <label for="biology">Biology (11th)</label>
+                    <input type="checkbox" id="chemistry12" name="courses[]" value="Chemistry (12th)">
+                    <label for="chemistry12">Chemistry (12th)</label>
+                </div>
+                <div>
 
-            <input type="checkbox" id="physics12" name="courses[]" value="Physics (12th)">
-            <label for="physics12">Physics (12th)</label>
+                    <input type="checkbox" id="maths12" name="courses[]" value="Maths (12th)">
+                    <label for="maths12">Maths (12th)</label>
+                </div>
+                <div>
 
-            <input type="checkbox" id="chemistry12" name="courses[]" value="Chemistry (12th)">
-            <label for="chemistry12">Chemistry (12th)</label>
-
-            <input type="checkbox" id="maths12" name="courses[]" value="Maths (12th)">
-            <label for="maths12">Maths (12th)</label>
-
-            <input type="checkbox" id="biology12" name="courses[]" value="Biology (12th)">
-            <label for="biology12">Biology (12th)</label>
+                    
+                    <input type="checkbox" id="biology12" name="courses[]" value="Biology (12th)">
+                    <label for="biology12">Biology (12th)</label>
+                </div>
             <label><h4>Mode of Study:</h4></label>
-            <input type="radio" id="online" name="mode" value="Online" required>
-            <label for="online">Online</label>
+           <div>
 
-            <input type="radio" id="offline" name="mode" value="Offline" required>
-            <label for="offline">Offline</label>
+               <input type="radio" id="online" name="mode" value="Online" required>
+               <label for="online">Online</label>
+            </div>
+            <div>
+
+                <input type="radio" id="offline" name="mode" value="Offline" required>
+                <label for="offline">Offline</label>
+            </div>
 
             <button type="submit" class="btn btn-primary">Send Message</button>
             

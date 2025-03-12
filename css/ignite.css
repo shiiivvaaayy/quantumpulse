@@ -16,15 +16,18 @@
     /* margin-right: 4rem; */
 
 }
+/* input[type="checkbox"], label {
+    vertical-align: middle;
+} */
 .form__name{
     display: flex;
     gap: 1.2rem;
 }
-.ignite__form input[type="text"]{
+/* .ignite__form input[type="text"]{
     width:50%
-}
+} */
 input,textarea{
-    width: 100%;
+    /* width: 100%; */
     padding: 1rem;
     background: var(--color-bg);
     color: var(--color-white);
