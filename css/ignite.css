@@ -4,7 +4,7 @@
     /* display: grid;
     grid-template-columns: 100%; */
     /* gap: 4rem; */
-    height: 125rem;
+    height: 120rem;
     margin: 7rem auto;
     border-radius: 1rem;
 }
@@ -41,7 +41,7 @@ input,textarea{
     .contact{
         padding-bottom: 0;
     }
-    .contact__container{
+    .ignite__container{
         gap: 1.5rem;
         margin-top: 3rem;
         height: auto;
