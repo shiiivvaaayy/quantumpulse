@@ -38,9 +38,9 @@ input,textarea{
 /* =================MEDIA QUERIES FOR TABLET====== */
 
 @media screen and (max-width: 1024px){
-    .contact{
+    /* .contact{
         padding-bottom: 0;
-    }
+    } */
     .ignite__container{
         gap: 1.5rem;
         margin-top: 3rem;
@@ -48,13 +48,13 @@ input,textarea{
         padding: 1.5rem;
     }    
 
-    .contact__aside{
+    /* .contact__aside{
         width: auto;
         padding: 1.5rem;
         bottom: 0;
-    }
+    } */
 
-    .contact__form{
+    .ignite__form{
         align-self: center;
         margin-right: 1.5rem;
     }
@@ -63,14 +63,14 @@ input,textarea{
 /* =================MEDIA QUERIES FOR mobile====== */
 
 @media screen and (max-width: 600px){
-    .contact__container{
+    .ignite__container{
         grid-template-columns: 1fr;
         gap: 3rem;
         margin-top: 0;
         padding: 0;
     }
 
-    .contact__form{
+    .ignite__form{
         margin:  0 1.5rem 3rem;
     }
 
